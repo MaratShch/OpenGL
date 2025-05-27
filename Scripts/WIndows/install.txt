@@ -1,0 +1,14 @@
+Run the Script (with Execution Policy): By default, Windows restricts running PowerShell scripts for security reasons. You have a few options:
+
+Option 1 (Recommended - Most Secure): Run the script with an execution policy that allows it to run this one time:
+
+powershell -ExecutionPolicy Bypass -File .\install_opengl.ps1
+Use code with caution.
+Powershell
+Explanation:
+
+powershell: Starts a new PowerShell instance.
+
+-ExecutionPolicy Bypass: Temporarily bypasses the execution policy restriction for this command only. This is safer than changing the global execution policy.
+
+-File .\install_opengl.ps1: Specifies the path to your script file. The .\ means "the current directory".
