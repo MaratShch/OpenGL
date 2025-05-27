@@ -5,8 +5,9 @@ Option 1 (Recommended - Most Secure): Run the script with an execution policy th
 powershell -ExecutionPolicy Bypass -File .\install_opengl.ps1
 Use code with caution.
 Powershell
-Explanation:
 
+Explanation:
+==============
 powershell: Starts a new PowerShell instance.
 
 -ExecutionPolicy Bypass: Temporarily bypasses the execution policy restriction for this command only. This is safer than changing the global execution policy.
